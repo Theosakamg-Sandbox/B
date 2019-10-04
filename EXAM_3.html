@@ -1,0 +1,65 @@
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>GIT Exam 3</title>
+  <style>
+  .commit { color: #333399; }
+  .branch { color: #14a133; }
+  .file { color: #333399; }
+  .tag { color: #dd4141; }
+  </style>
+</head> 
+<body>
+
+<strong>Si aucune branch n'est evoqué utiliser la master !!!</strong>
+
+<h2>1. Ajouter Bootstrap.</h2>
+<p>
+Dans une branche <span class="branch">"add_vendor"</span>,
+ajouter bootstrap (lien vers vendor/bootstrap/dist/css/*.css) a vos pages :
+<ul>
+<li>cv , Conservez un historique avec pour message <span class="commit">"Add Design for CV"</span></li>
+<li>institut, Conservez un historique avec pour message <span class="commit">"Add Design for Institut"</span></li>
+<li>index , Ne pas conserver pour le moment dans l'historique.</li>
+<li>voisin_* , Ne pas conserver pour le moment dans l'historique</li>
+</ul>
+<i>Suivre le <a href="https://www.w3schools.com/bootstrap4/">tuto</a> du chapitre "Bootstrap 4 Basic Template"</i>
+</p>
+<hr/>
+
+<h2>2. Ajouter vos voisins comme auteurs.</h2>
+<p>
+Dans une branche <span class="branch">"Update_author"</span> basé sur la master sans vos modification de design(bootstrap),<br/>
+Ajouter dans le fichier AUTHORS.md, le nom de vos voisins ayant ajoutés leurs pages dans votre dépot.<br/>
+Conservez un historique avec pour message <span class="commit">"Add new authors"</span>.
+</p>
+<hr/>
+
+<h2>3. Personaliser le design.</h2>
+<p>
+Dans la branche <span class="branch">"add_vendor"</span>,
+Changer la couleur de fond du bloc "collapsibleNavbar" en vert (#34ab1d) dans un fichier CSS (dans src/main/ressource/css/main.css)<br/>
+Conservez un historique avec pour message <span class="commit">"Add final Design"</span>.
+</p>
+<hr/>
+
+<h2>4. Rebaser la branche.</h2>
+<p>
+Rebaser la branche <span class="branch">"add_vendor"</span> sur la base de la branch <span class="branch">"master"</span>.
+<strong>ATTENTION !!!</strong>
+</p>
+<hr/>
+
+<h2>4. Ajouter Jquery.</h2>
+<p>
+Dans une branche <span class="branch">"add_vendor"</span>,
+ajouter Jquery : <a href="https://code.jquery.com/jquery-3.4.1.min.js">jquery-3.4.1.min.js</a> dans le dossier src/main/ressources/js/<br/>
+Conservez un historique avec pour message <span class="commit">"Building Jquery"</span>.<br/>
+Ajouter la librarie dans toutes les pages de votre site.
+Activer un <a href="https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_down">slide-show</a>
+</p>
+<hr/>
+
+
+</body>
+</html>
