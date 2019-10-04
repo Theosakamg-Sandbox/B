@@ -1,0 +1,175 @@
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>GIT Exam 1</title>
+  <style>
+  .commit { color: #333399; }
+  </style>
+</head> 
+<body>
+
+<h2>1. Création du projet</h2>
+<p>
+Dans un dossier <strong>ExamGit</strong>, créer un projet ayans la structure suivante :
+<pre>
+|- src/
+|   |- main/
+|   |    |- java/
+|   |    |- html/
+|   |    |- ressources/
+|   |    |     |- css/
+|   |    |     |- js/
+|   |- test/
+|   |- vendor/
+|- doc/
+|   |- UML/
+|   |- User_manual/
+|- README.md
+|- LICENSE.md
+|- AUTHORS.md
+|- CONTRIBUTING.md
+|- CODE_OF_CONDUCT.md
+</pre></p>
+<hr/>
+<p>
+Dans le fichier <strong>README.md</strong> :
+<pre>
+Exam GIT 2019 - Mon Site Web.
+</pre>
+</p>
+<hr/>
+<p>Dans le fichier <strong>LICENSE.md</strong> : copier/coller le contenue de la license Apache V2, comme dans le TP1.</p>
+<hr/>
+<p>Dans le fichier <strong>AUTHORS.md</strong> : Ajouter votre Nom Prenom.
+</p>
+<hr/>
+<p>Dans le fichier <strong>CONTRIBUTING.md</strong> :
+<pre>
+Any contribution that you make to this repository will
+be under the Apache 2 License, as dictated by that
+[license](http://www.apache.org/licenses/LICENSE-2.0.html):
+
+~~~
+5. Submission of Contributions. Unless You explicitly state otherwise,
+   any Contribution intentionally submitted for inclusion in the Work
+   by You to the Licensor shall be under the terms and conditions of
+   this License, without any additional terms or conditions.
+   Notwithstanding the above, nothing herein shall supersede or modify
+   the terms of any separate license agreement you may have executed
+   with Licensor regarding such Contributions.
+~~~
+</pre>
+</p>
+<hr/>
+
+
+<h2>2. Depot GIT</h2>
+<p>
+Initialisez le dépot de versionning<br/>
+Conservez un historique avec pour message <span class="commit">"Initial commit"</span>.<br/>
+Créer un depot distant sur Github et déployer.
+</p>
+<hr/>
+
+
+<h2>3. Ignorer les fichiers du depot</h2>
+<p>
+Exclure les fichiers de type :
+<ul>
+<li>jar</li>
+<li>war</li>
+<li>iml</li>
+</ul>
+Exclure les fichiers pour le language JAVA.<br/>
+Exclure les fichiers émanent d'un MacOS(DS_Store...) & Windows(Thumbs.db...)<br/><br/>
+Conservez un historique avec pour message <span class="commit">"Ignore untracked files"</span>.<br/>
+<i>Vous pouvez utiliser les sites github.com ou gitignore.io</i>
+</p>
+<hr/>
+
+
+<h2>4. Ajouter une etiquette de Version </h2>
+<p>
+Ajouter un etiquette de version 0.0.1 et deployé sur le depot distant.
+</p>
+<hr/>
+
+
+<h2>5. Ajouter des projets externes</h2>
+<p>Ajouter dans le dossier <strong>vendor</strong> les projets suivant :
+<ul>
+<li>https://github.com/twbs/bootstrap & Conservez un historique avec pour message <span class="commit">"Add vendor sub-modules bootstrap"</span>.</li>
+<li>https://github.com/jquery/jquery & Conservez un historique avec pour message <span class="commit">"Add vendor sub-modules jquery"</span>.</li>
+<li>https://github.com/Theosakamg-Sandbox/B Conservez un historique avec pour message <span class="commit">"Add vendor sub-modules Theosaka"</span>.</li>
+</ul>
+</p>
+<hr/>
+
+
+<h2>6. Créer votre page portfolio.</h2>
+<p>
+Dans une branche "CV", créer un page HTML dans src/main/html/cv.html avec votre CV comportant :
+<ul>
+<li>Identité (Nom, prenom, age.)</li>
+<li>Vos qualifications (Diplome préparer ou obtenue)</li>
+<li>Vos expériences (projet réaliser par ordre chronologiaue)</li>
+</ul>
+Conservez un historique avec pour message <span class="commit">"Add Portfolio"</span>.
+Puis fusionner dans la branche Master.
+</p>
+<hr/>
+
+
+<h2>7. Créer une page du Centre de formation.</h2>
+<p>
+Dans une branche "Institut", créer un page HTML dans src/main/html/institut.html avec votre CV comportant :
+<ul>
+<li>Identité (Nom, address)</li>
+<li>Liste des formations</li>
+<li>Ajouter un lien du centre de formation de votre page portfolio.html ver la page institut,</li>
+</ul>
+Conservez un historique avec pour message <span class="commit">"Add Institut"</span>. Ne pas fusionner la branche pour le moment.
+</p>
+<hr/>
+
+
+<h2>8. Ajouter une etiquette de Version </h2>
+<p>
+Ajouter un etiquette de version 0.1.0 et deployé sur le depot distant.
+</p>
+<hr/>
+
+
+<h2>9. Ajouter votre page portfolio a votre voisin (de gauche).</h2>
+<p>
+<i>apres qu'il vous soit donné acces a sont depot...</i><br/>
+Dans une branche "voisin_left", ajouter dans src/main/html/voisin.html une copie de votre page portfolio.html .
+Conservez un historique avec pour message <span class="commit">"Add Voisin page"</span>.
+</p>
+<hr/>
+
+
+<h2>10. Ajouter un page par defaut.</h2>
+<p>
+Dans une branche "index", créer un page HTML dans src/main/html/index.html avec :
+<ul>
+<li>Un slogan et une image</li>
+<li>Listes des liens vers les autres pages</li>
+</ul>
+Conservez un historique avec pour message <span class="commit">"Add Index page"</span>.
+Puis fusionner dans la branche Master.
+</p>
+<hr/>
+
+<h2>11. Intéger les pages en attente.</h2>
+<p>
+Fusionner les branche :
+<ul>
+<li>Voisin</li>
+<li>Institut</li>
+</ul>
+</p>
+
+
+</body>
+</html>
