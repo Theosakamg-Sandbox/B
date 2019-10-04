@@ -4,9 +4,9 @@
   <title>GIT Exam 1</title>
   <style>
   .commit { color: #333399; }
-  .branch { color: #333399; }
+  .branch { color: #14a133; }
   .file { color: #333399; }
-  .tag { color: #333399; }
+  .tag { color: #dd4141; }
   </style>
 </head> 
 <body>
@@ -93,7 +93,7 @@ Conservez un historique avec pour message <span class="commit">"Ignore untracked
 
 <h2>4. Ajouter une etiquette de Version </h2>
 <p>
-Ajouter un etiquette de version 0.0.1 et deployé sur le depot distant.
+Ajouter un etiquette de version <span class="tag">0.0.1</span> et deployé sur le depot distant.
 </p>
 <hr/>
 
@@ -111,7 +111,7 @@ Ajouter un etiquette de version 0.0.1 et deployé sur le depot distant.
 
 <h2>6. Créer votre page portfolio.</h2>
 <p>
-Dans une branche "CV", créer un page HTML dans src/main/html/cv.html avec votre CV comportant :
+Dans une branche <span class="branch">"CV"</span>, créer un page HTML dans src/main/html/cv.html avec votre CV comportant :
 <ul>
 <li>Identité (Nom, prenom, age.)</li>
 <li>Vos qualifications (Diplome préparer ou obtenue)</li>
@@ -125,7 +125,7 @@ Puis fusionner dans la branche Master.
 
 <h2>7. Créer une page du Centre de formation.</h2>
 <p>
-Dans une branche "Institut", créer un page HTML dans src/main/html/institut.html comportant :
+Dans une branche <span class="branch">"Institut"</span>, créer un page HTML dans src/main/html/institut.html comportant :
 <ul>
 <li>Identité (Nom, address)</li>
 <li>Liste des formations</li>
@@ -138,7 +138,7 @@ Conservez un historique avec pour message <span class="commit">"Add Institut"</s
 
 <h2>8. Ajouter une etiquette de Version </h2>
 <p>
-Ajouter un etiquette de version 0.1.0 et deployé sur le depot distant.
+Ajouter un etiquette de version <span class="tag">0.1.0</span> et deployé sur le depot distant.
 </p>
 <hr/>
 
@@ -146,7 +146,7 @@ Ajouter un etiquette de version 0.1.0 et deployé sur le depot distant.
 <h2>9. Ajouter votre page portfolio a votre voisin (de gauche).</h2>
 <p>
 <i>apres qu'il vous soit donné acces a sont depot...</i><br/>
-Dans une branche "voisin_left", ajouter dans src/main/html/voisin.html une copie de votre page cv.html .
+Dans une branche <span class="branch">"voisin_left"</span>, ajouter dans src/main/html/voisin.html une copie de votre page cv.html .
 Conservez un historique avec pour message <span class="commit">"Add Voisin page"</span>.
 </p>
 <hr/>
@@ -154,10 +154,10 @@ Conservez un historique avec pour message <span class="commit">"Add Voisin page"
 
 <h2>10. Ajouter un page par defaut.</h2>
 <p>
-Dans une branche "index", créer un page HTML dans src/main/html/index.html avec :
+Dans une branche <span class="branch">"index"</span>, créer un page HTML dans src/main/html/index.html avec :
 <ul>
 <li>Un slogan et une image</li>
-<li>Listes des liens vers les autres pages</li>
+<li>Lister les liens vers les autres pages</li>
 </ul>
 Conservez un historique avec pour message <span class="commit">"Add Index page"</span>.
 Puis fusionner dans la branche Master.
@@ -166,8 +166,8 @@ Puis fusionner dans la branche Master.
 
 <h2>11. Intéger les pages en attente.</h2>
 <p>
-Fusionner les branche :
-<ul>
+Fusionner les branches :
+<ul class="branch">
 <li>Voisin</li>
 <li>Institut</li>
 </ul>
